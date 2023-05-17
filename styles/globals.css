@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
+    /* global theme */
     body {
-        @apply dark:bg-black/30 dark:text-white bg-slate-100 text-black/60;
+        @apply dark:bg-zinc-900 dark:text-white/80 bg-zinc-200 text-black/90 font-light font-sans text-lg;
     }
 }
