@@ -10,7 +10,7 @@ export default function Layout({ children }: LayoutProps) {
     return (
         <div className="flex min-h-screen flex-col items-center p-4">
             <Navigation />
-            <div>{children}</div>
+            <div className="flex-1">{children}</div>
             <Footer />
         </div>
     );
