@@ -3,13 +3,13 @@ import { motion, SVGMotionProps } from "framer-motion";
 interface BurgerMenuProps extends SVGMotionProps<any> {
     isOpen?: boolean;
     color: string;
+    size: number;
 }
 
 export default function BurgerMenu({
     isOpen = false,
     color = "black",
-    width = 14,
-    height = 14,
+    size = 20,
     ...props
 }: BurgerMenuProps) {
     const variant = isOpen ? "opened" : "closed";
@@ -50,7 +50,7 @@ export default function BurgerMenu({
     };
 
     const unitHeight = 4;
-    const unitWidth = (unitHeight * (width as number)) / (height as number);
+    const unitWidth = (unitHeight * (size as number)) / (size as number);
 
     return (
         <div className="burger">
@@ -59,8 +59,8 @@ export default function BurgerMenu({
                 viewBox={`0 0 ${unitWidth} ${unitHeight}`}
                 overflow="visible"
                 preserveAspectRatio="none"
-                width={width}
-                height={height}
+                width={size}
+                height={size}
                 {...props}
             >
                 <motion.line

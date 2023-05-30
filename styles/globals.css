@@ -3,8 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
     /* global theme */
     body {
-        @apply bg-gradient-to-b from-zinc-100 via-cyan-50 to-zinc-200 font-sans text-lg font-light text-black/90 dark:from-zinc-800 dark:via-indigo-950/30 dark:to-zinc-800 dark:text-white/80;
+        @apply bg-gradient-to-b from-zinc-100 via-cyan-50 to-zinc-200 font-sans text-black/80 dark:from-zinc-800 dark:via-indigo-950/40 dark:to-zinc-800 dark:text-white/80;
+    }
+}
+
+@layer utilities {
+    /* underline animation */
+    .link {
+        @apply relative cursor-pointer transition-all 
+               duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-0.5 before:w-0 before:bg-gradient-to-r before:from-zinc-300 before:via-slate-200 before:to-zinc-300 before:opacity-0 before:transition-all before:duration-500
+               before:content-[''] hover:before:w-full
+               hover:before:opacity-100;
     }
 }
