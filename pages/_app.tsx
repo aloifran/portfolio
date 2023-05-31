@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <ThemeProvider attribute="class">
+            <ThemeProvider attribute="class" enableSystem={false}>
                 <Layout>
                     <Component {...pageProps} />
                 </Layout>

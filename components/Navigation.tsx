@@ -5,18 +5,16 @@ import { MdSunny, MdBedtime } from "react-icons/md";
 import Burger from "./Burger";
 
 export default function Navigation() {
-    // setup for next-theme
-    const { systemTheme, theme, setTheme } = useTheme();
-    const currentTheme = theme === "system" ? systemTheme : theme;
-
+    const { theme, setTheme } = useTheme();
     const [navShow, setNavShow] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
     const handleNav = () => {
         setNavShow(!navShow);
     };
+
     const handleTheme = () => {
-        currentTheme === "dark" ? setTheme("light") : setTheme("dark");
+        theme === "dark" ? setTheme("light") : setTheme("dark");
     };
 
     return (
@@ -44,15 +42,11 @@ export default function Navigation() {
                                     isOpen={isOpen}
                                     onClick={() => setIsOpen(!isOpen)}
                                     size={16}
-                                    color={
-                                        currentTheme === "dark"
-                                            ? "white"
-                                            : "black"
-                                    }
+                                    color={theme === "dark" ? "white" : "black"}
                                 />
                             </button>
                             {/* theme */}
-                            {currentTheme === "dark" ? (
+                            {theme === "dark" ? (
                                 <button
                                     onClick={handleTheme}
                                     className="rounded-lg"
