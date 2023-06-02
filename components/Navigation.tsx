@@ -1,17 +1,16 @@
 import { useState } from "react";
-import { useTheme } from "next-themes";
 import Link from "next/link";
-import Burger from "./Burger";
 import ThemeSelector from "./ThemeSelector";
+import { Squash as Hamburger } from "hamburger-react";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Navigation() {
-    const { theme } = useTheme();
     const [navShow, setNavShow] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
     const handleNav = () => {
         setNavShow(!navShow);
+        setIsOpen(!isOpen);
     };
 
     const closeNav = () => {
@@ -66,19 +65,13 @@ export default function Navigation() {
                         <div className="items-center justify-between md:flex md:flex-row-reverse">
                             <div className="flex items-center justify-center space-x-4 md:ml-6 md:space-x-6">
                                 <ThemeSelector />
-                                <button
-                                    className="rounded-lg md:hidden"
-                                    onClick={handleNav}
-                                >
-                                    <Burger
-                                        isOpen={isOpen}
-                                        onClick={() => setIsOpen(!isOpen)}
-                                        size={16}
-                                        color={
-                                            theme === "dark" ? "white" : "black"
-                                        }
+                                <div className="md:hidden">
+                                    <Hamburger
+                                        toggle={handleNav}
+                                        toggled={isOpen}
+                                        size={25}
                                     />
-                                </button>
+                                </div>
                             </div>
                             {/* links */}
                             <div className="hidden items-center justify-center space-x-4 md:flex md:space-x-6">
