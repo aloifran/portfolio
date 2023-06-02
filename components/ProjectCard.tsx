@@ -27,6 +27,7 @@ export default function ProjectCard({
                         alt="Project"
                         width={600}
                         height={400}
+                        priority
                         className="rounded-xl shadow-lg"
                     />
                 </a>
