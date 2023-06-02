@@ -2,7 +2,7 @@ import Contact from "@/components/Contact";
 
 export default function About() {
     return (
-        <div className="mx-auto flex w-3/5 flex-col gap-8 py-8">
+        <div className="mx-auto flex w-4/5 flex-col gap-8 py-8 md:w-3/5">
             <div className="flex flex-col gap-6 md:w-11/12">
                 <h1 className="text-3xl font-bold">About me</h1>
                 <div className="flex flex-col gap-6">
