@@ -11,7 +11,7 @@ export default function ExternalSiteIcon({ size }: SvgIconProps) {
         >
             <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
                 <g
-                    className={`fill-theme-black dark:fill-theme-white`}
+                    className={`fill-theme-black hover:fill-zinc-600 dark:fill-theme-white dark:hover:fill-zinc-400`}
                     transform="translate(85.333 64)"
                 >
                     <path d="M128 64v42.666H42.667V320H256v-85.334h42.666v128H0V64h128zM362.667 0v170.667H320V72.835L143.085 249.752l-30.17-30.17L289.83 42.666H192V0h170.667z"></path>

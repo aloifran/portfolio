@@ -4,7 +4,7 @@ import { calcSvgIconSize } from "@/utils/utils";
 export default function LinkedinIcon({ size }: SvgIconProps) {
     return (
         <svg
-            className={`fill-theme-black dark:fill-theme-white`}
+            className={`fill-theme-black hover:fill-[#0077B5] dark:fill-theme-white dark:hover:fill-[#0077B5]`}
             xmlns="http://www.w3.org/2000/svg"
             width={calcSvgIconSize(size)}
             height={calcSvgIconSize(size)}

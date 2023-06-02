@@ -36,15 +36,15 @@ export default function Contact() {
                 </span>
             </p>
 
-            <div className="flex gap-8 pt-8">
-                <a href="https://github.com/aloifran" target="_blank">
-                    <SvgIcon size="lg" icon="github" />
-                </a>
+            <div className="flex space-x-6 pt-2">
                 <a href="https://www.linkedin.com/in/fjaloi" target="_blank">
-                    <SvgIcon size="lg" icon="linkedIn" />
+                    <SvgIcon size="md" icon="linkedIn" />
+                </a>
+                <a href="https://github.com/aloifran" target="_blank">
+                    <SvgIcon size="md" icon="github" />
                 </a>
                 <a href="mailto:franad89@gmail.com">
-                    <SvgIcon size="lg" icon="email" />
+                    <SvgIcon size="md" icon="email" />
                 </a>
             </div>
         </div>

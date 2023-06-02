@@ -4,7 +4,7 @@ import { calcSvgIconSize } from "@/utils/utils";
 export default function EmailIcon({ size }: SvgIconProps) {
     return (
         <svg
-            className={`fill-theme-black dark:fill-theme-white`}
+            className={`fill-theme-black hover:fill-zinc-600 dark:fill-theme-white dark:hover:fill-zinc-400`}
             xmlns="http://www.w3.org/2000/svg"
             width={calcSvgIconSize(size)}
             height={calcSvgIconSize(size)}
