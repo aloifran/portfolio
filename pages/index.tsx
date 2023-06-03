@@ -24,6 +24,16 @@ export default function Home() {
                         Working alongside senior developers for years encouraged
                         me to become one myself.
                     </p>
+
+                    <div>
+                        <a
+                            href="/resume.pdf"
+                            target="_blank"
+                            className="link font-medium"
+                        >
+                            Here is my Resume.
+                        </a>
+                    </div>
                 </div>
 
                 {/* Skills */}
