@@ -1,11 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Personal portfolio website.
 
-## Getting Started
+### Tech Stack:
 
-First, run the development server:
-
-```bash
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   [Typescript](https://www.typescriptlang.org/docs/)
+-   [Nextjs](https://nextjs.org/)
+-   [Tailwind](https://tailwindcss.com/)
+-   [Framer Motion](https://www.framer.com/motion/)
