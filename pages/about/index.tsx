@@ -17,17 +17,17 @@ export default function About() {
                             I began my programming journey in Java focused on
                             automating end-to-end workflows using diverse
                             approaches and tools to cover front-end, back-end,
-                            and mobile products. This involved adapting to
-                            various system architectures including messaging
+                            and mobile products. I had to adapt to many
+                            different system architectures including messaging
                             systems, microservices, databases, and APIs.
                         </p>
                         <p>
                             After years of programming for tests, I realized I
                             desired to code for creating products and pursue a
                             software development career. I recently completed a
-                            Full-stack Software Development Bootcamp, gaining
-                            hands-on experience with various technologies and
-                            successfully delivering multiple projects. This
+                            full-stack software development bootcamp, were I
+                            gained hands-on experience with various technologies
+                            and successfully delivered multiple projects. This
                             challenge solidified my career path and reinforced
                             my dedication to pursue this role.
                         </p>

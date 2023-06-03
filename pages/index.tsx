@@ -21,8 +21,8 @@ export default function Home() {
                         development experience and challenge my way of thinking.
                     </p>
                     <p>
-                        Working alongside senior developers for years as a Test
-                        Automation Engineer encouraged me to become one myself.
+                        Working alongside senior developers for years encouraged
+                        me to become one myself.
                     </p>
                 </div>
 
@@ -93,24 +93,11 @@ export default function Home() {
                 <div className="flex scroll-mt-28 flex-col gap-2" id="projects">
                     <h1 className="text-3xl font-semibold">Projects</h1>
                     <p>Some of the projects I’ve been working on lately.</p>
-                    <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
-                        <ProjectCard
-                            title="Image Gallery"
-                            description="A private image gallery where I focused on the possibilities of Supabase for database, authentication and storage management."
-                            imageSrc="/gallery1.png"
-                            repoUrl="https://github.com/aloifran/image-board"
-                            siteUrl="https://image-board.vercel.app/"
-                            techStack={[
-                                "Vue.js",
-                                "Vuetify",
-                                "Supabase",
-                                "Typescript",
-                            ]}
-                        />
+                    <div className="mt-8 grid grid-cols-1 gap-10 md:grid-cols-2">
                         <ProjectCard
                             title="Sound Synthesis"
                             description="An interactive educational site about the essentials of sound synthesis with audiovisual examples."
-                            imageSrc="/Sound.png"
+                            imageSrc="/sound-synth.png"
                             repoUrl="https://github.com/aloifran/SoundSynthesis"
                             siteUrl="https://sound-synthesis.vercel.app/"
                             techStack={[
@@ -122,9 +109,23 @@ export default function Home() {
                             ]}
                         />
                         <ProjectCard
+                            title="Image Gallery"
+                            description="A private image manager that uses Supabase for authentication, database, and storage."
+                            inDevelopment
+                            imageSrc="/image-gallery.png"
+                            repoUrl="https://github.com/aloifran/image-board"
+                            siteUrl="https://image-board.vercel.app/"
+                            techStack={[
+                                "Vue.js",
+                                "Vuetify",
+                                "Supabase",
+                                "Typescript",
+                            ]}
+                        />
+                        <ProjectCard
                             title="Rock Paper Scissors"
-                            description="A game with a minimalist approach where I explored the possibilities of Framer Motion animation."
-                            imageSrc="/RPS.png"
+                            description="A classic game with a minimalist approach where I focused on the possibilities of Framer Motion animation."
+                            imageSrc="/rock-paper-scissors.png"
                             repoUrl="https://github.com/aloifran/rock-paper-scissors"
                             siteUrl="https://rock-paper-scissors-aloifran.vercel.app/"
                             techStack={[

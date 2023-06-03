@@ -8,6 +8,7 @@ interface ProjectCardProps {
     repoUrl: string;
     siteUrl?: string;
     techStack?: string[];
+    inDevelopment?: boolean;
 }
 
 export default function ProjectCard({
@@ -17,6 +18,7 @@ export default function ProjectCard({
     repoUrl,
     siteUrl,
     techStack,
+    inDevelopment,
 }: ProjectCardProps) {
     return (
         <div className="flex flex-col gap-4">
@@ -25,8 +27,8 @@ export default function ProjectCard({
                     <Image
                         src={imageSrc}
                         alt="Project"
-                        width={600}
-                        height={400}
+                        width={500}
+                        height={300}
                         priority
                         className="rounded-xl shadow-lg"
                     />
@@ -34,8 +36,14 @@ export default function ProjectCard({
             </div>
             <div className="flex flex-col gap-4">
                 <div className="flex items-center justify-between">
-                    <h2 className="text-xl font-semibold">{title}</h2>
-
+                    <div>
+                        <h2 className="text-xl font-semibold">{title}</h2>
+                        {inDevelopment && (
+                            <span className="text-md inline text-zinc-400">
+                                Under development
+                            </span>
+                        )}
+                    </div>
                     <div className="flex gap-4 pr-1">
                         <a href={repoUrl} target="_blank">
                             <SvgIcon size="sm" icon="github" />
