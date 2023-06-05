@@ -51,7 +51,7 @@ export default function Navigation() {
     return (
         <>
             <header className="fixed z-10 w-full bg-white/20 py-2 shadow-md backdrop-blur-md backdrop-filter dark:bg-black/20">
-                <div className="mx-auto w-4/5 items-center justify-between py-4 md:w-3/5">
+                <div className="mx-auto w-4/5 items-center justify-between py-2 md:w-3/5 md:py-4">
                     <div className="flex items-center justify-between">
                         {/* title */}
                         <div>

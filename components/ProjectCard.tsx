@@ -23,7 +23,7 @@ export default function ProjectCard({
     return (
         <div className="flex flex-col gap-4">
             <div>
-                <a href={repoUrl}>
+                <a href={siteUrl || repoUrl}>
                     <Image
                         src={imageSrc}
                         alt="Project"

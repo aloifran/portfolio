@@ -100,7 +100,10 @@ export default function Home() {
                 </div>
 
                 {/* Projects  */}
-                <div className="flex scroll-mt-28 flex-col gap-2" id="projects">
+                <div
+                    className="flex max-w-5xl scroll-mt-28 flex-col gap-2"
+                    id="projects"
+                >
                     <h1 className="text-3xl font-semibold">Projects</h1>
                     <p>Some of the projects I’ve been working on lately.</p>
                     <div className="mt-8 grid grid-cols-1 gap-10 md:grid-cols-2">
