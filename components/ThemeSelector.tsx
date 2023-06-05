@@ -27,7 +27,7 @@ export default function ThemeSelector() {
                 <motion.button
                     onClick={handleTheme}
                     className="rounded-lg"
-                    initial={{ rotate: 100 }}
+                    initial={{ rotate: 0 }}
                     animate={{ rotate: 0, transition: { duration: 0.4 } }}
                 >
                     <MdBedtime size={25} />
