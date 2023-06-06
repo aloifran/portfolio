@@ -127,7 +127,7 @@ export default function Home() {
                             inDevelopment
                             imageSrc="/image-gallery.png"
                             repoUrl="https://github.com/aloifran/image-board"
-                            siteUrl="https://image-board.vercel.app/"
+                            siteUrl="https://image--gallery.vercel.app/"
                             techStack={[
                                 "Vue.js",
                                 "Vuetify",
