@@ -9,14 +9,14 @@ export default function Home() {
       <div className="mx-auto flex w-4/5 flex-col gap-16 pt-8 md:w-3/5">
         {/* Intro */}
         <div className="flex flex-col gap-3 md:w-11/12">
-          <h1 className="text-2xl font-semibold md:text-2xl">Hi, I'm Francisco.</h1>
-          <p>I'm a Software Engineer with a Test Automation background.</p>
+          <h1 className="text-2xl font-semibold md:text-2xl">Hi, I&apos;m Francisco.</h1>
+          <p>I&apos;m a Software Engineer with a Test Automation background.</p>
           <p>
             I love building things, automating tests, and exploring new frameworks that enhance the
             development experience and challenge my way of thinking.
           </p>
           <p>
-            I'm currently working as a Senior Test Automation Engineer at{" "}
+            I&apos;m currently working as a Senior Test Automation Engineer at{" "}
             <a href="https://www.klara.com/" className="link">
               Klara
             </a>

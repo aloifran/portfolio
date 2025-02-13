@@ -9,7 +9,7 @@ export default function About() {
           <h1 className="text-3xl font-semibold md:text-4xl">About me</h1>
           <div className="flex flex-col gap-6">
             <p>
-              Hi there, I’m Francisco Aloi, a{" "}
+              Hi there, I&apos;m Francisco Aloi, a{" "}
               <span className="font-semibold">Software Engineer</span> with a{" "}
               <span className="font-semibold">Test Automation</span> background from Argentina,
               currently based in Berlin.
