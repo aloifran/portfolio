@@ -30,9 +30,9 @@ export default function About() {
             </p>
 
             <p>
-              After years of programming for tests, I felt the need to create products and pursue a{" "}
-              <span className="font-semibold">software development</span> career. I recently
-              completed a full-stack software development bootcamp, were I gained hands-on
+              After years of programming for tests, I felt the need to deepen my understanding of how software products are built
+              and gain insight into the <span className="font-semibold">full stack development</span> process.
+              I recently completed an intensive software development bootcamp, where I gained hands-on
               experience with various technologies and successfully delivered multiple projects.
             </p>
           </div>
