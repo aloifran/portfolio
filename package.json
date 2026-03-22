@@ -2,6 +2,9 @@
     "name": "portfolio-next",
     "version": "0.1.0",
     "private": true,
+    "engines": {
+        "node": "22.x"
+    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -9,7 +12,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@types/node": "18.15.11",
+        "@types/node": "22",
         "@types/react": "18.0.33",
         "@types/react-copy-to-clipboard": "^5.0.4",
         "@types/react-dom": "18.0.11",
