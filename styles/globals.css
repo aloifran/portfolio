@@ -8,8 +8,8 @@
   }
   /* global theme */
   body {
-    @apply bg-gradient-to-b from-zinc-100 via-cyan-50 to-zinc-100 font-sans text-theme-black
-        dark:from-zinc-800 dark:via-indigo-950/70 dark:to-zinc-800 dark:text-theme-white;
+    @apply bg-gradient-to-b from-stone-100 via-teal-50 to-stone-200 font-sans text-theme-black
+        dark:from-zinc-900 dark:via-indigo-950/70 dark:to-zinc-950 dark:text-theme-white;
   }
 }
 
