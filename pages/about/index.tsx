@@ -1,4 +1,3 @@
-import Contact from "@/components/Contact";
 import PageWrapper from "@/components/PageWrapper";
 
 export default function About() {
@@ -9,31 +8,29 @@ export default function About() {
           <h1 className="text-3xl font-semibold md:text-4xl">About me</h1>
           <div className="flex flex-col gap-6">
             <p>
-              Hi there, I&apos;m Francisco Aloi, a{" "}
-              <span className="font-semibold">Software Engineer</span> with a{" "}
-              <span className="font-semibold">Test Automation</span> background from Argentina,
-              currently based in Berlin.
+              I&apos;m Francisco Aloi, a{" "}
+              <span className="font-semibold">Senior Test Automation Engineer</span> from Argentina, and now based in Berlin. <br />
+               I have over a decade of experience in front-end and back-end testing and specialize in building automated test systems that
+               are easy to maintain and extend, alongside{" "}<span className="font-semibold">CI/CD pipelines</span> that improve delivery speed and reliability.
             </p>
             <p>
-              I began my programming journey in <span className="font-semibold">Java</span> focused
-              on automating end-to-end workflows using diverse approaches and tools to cover
-              front-end, back-end, and mobile domains. Later I discovered the simplicity of{" "}
-              <span className="font-semibold">Javascript</span> and{" "}
-              <span className="font-semibold">Typescript</span> and started learning testing tools
-              such as Cypress and Playwright.
-            </p>
-
-            <p>
-              As part of my experiences in various companies, I had to adapt to many different{" "}
-              <span className="font-semibold">system architectures</span> including messaging
-              systems, microservices, databases, and APIs.
+              I began my programming journey with{" "}<span className="font-semibold">Java</span>, focusing on automating complex end-to-end 
+              workflows across{" "}<span className="font-semibold">front-end</span>,{" "}<span className="font-semibold">back-end</span>, and{" "}<span className="font-semibold">mobile</span> domains.
+               As the years passed and the industry evolved, I discovered the simplicity of{" "}<span className="font-semibold">Javascript</span> and{" "}later adopted{" "}
+              <span className="font-semibold">Typescript</span> as my current main language, embracing modern testing tools like{" "}
+              <span className="font-semibold">Cypress</span> and{" "}<span className="font-semibold">Playwright</span> to build
+              resilient and maintainable test frameworks.
+              Most recently at Klara, I&apos;ve expanded into{" "}<span className="font-semibold">Ruby</span>, allowing me to contribute to the backend codebase mostly written
+               in{" "}<span className="font-semibold">Ruby on Rails</span>.
             </p>
 
             <p>
-              After years of programming for tests, I felt the need to deepen my understanding of how software products are built
-              and gain insight into the <span className="font-semibold">full stack development</span> process.
-              I recently completed an intensive software development bootcamp, where I gained hands-on
-              experience with various technologies and successfully delivered multiple projects.
+              After years of programming for testing, I felt the need to deepen my understanding of how software products are built
+              and gain insight into the development process.
+              This led me to complete an intensive{" "}<span className="font-semibold">Full-stack Software Development Bootcamp</span>{" "}
+              where I had the opportunity to successfully deliver multiple projects.
+              That experience changed my perspective and allowed my to see the big picture of how a product is is built and delivered,
+               and how testing fits into the development process.
             </p>
           </div>
         </div>

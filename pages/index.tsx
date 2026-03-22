@@ -10,16 +10,16 @@ export default function Home() {
         {/* Intro */}
         <div className="flex flex-col gap-3 md:w-11/12">
           <h1 className="text-2xl font-semibold md:text-2xl">Hi, I&apos;m Francisco.</h1>
-          <p>I&apos;m a Software Engineer with a Test Automation background.</p>
           <p>
-            I love building things, automating tests, and exploring new frameworks that enhance the
-            development experience and challenge my way of thinking.
+            I&apos;m a Test Automation Engineer with over a decade of experience in front-end and back-end testing.
+            I enjoy building automated test systems that are easy to maintain and extend,
+            along with CI/CD pipelines that improve delivery and reliability.
           </p>
           <p>
-            I&apos;m currently working as a Senior Test Automation Engineer at{" "}
+            I&apos;m currently based in Berlin and working at{" "}
             <a href="https://www.klara.com/" className="link">
               Klara
-            </a>
+            </a>.
           </p>
 
           <div className="mt-4">
@@ -41,9 +41,7 @@ export default function Home() {
                   <li>React</li>
                   <li>Next.js</li>
                   <li>Vue.js</li>
-                  <li>Redux</li>
-                  <li>Pinia</li>
-                  <li>Tailwind</li>
+                  <li>Material UI</li>
                   <li>Storybook</li>
                 </ul>
               </div>
@@ -52,9 +50,9 @@ export default function Home() {
               <div className="font-semibold">Back-End</div>
               <div className="mt-2 space-y-1">
                 <ul>
-                  <li>Javascript (Node.js)</li>
                   <li>Typescript</li>
                   <li>Java</li>
+                  <li>Ruby</li>
                   <li>Rest APIs</li>
                   <li>GraphQL</li>
                   <li>SQL</li>
@@ -67,8 +65,9 @@ export default function Home() {
                 <ul>
                   <li>Playwright</li>
                   <li>Cypress</li>
-                  <li>Jest</li>
                   <li>Cucumber</li>
+                  <li>Selenium</li>
+                  <li>Grafana K6</li>
                 </ul>
               </div>
             </div>
@@ -77,7 +76,9 @@ export default function Home() {
               <div className="mt-2 space-y-1">
                 <ul>
                   <li>Git</li>
+                  <li>Bash</li>
                   <li>Docker</li>
+                  <li>Datadog</li>
                   <li>AWS</li>
                   <li>CircleCI</li>
                   <li>Github Actions</li>

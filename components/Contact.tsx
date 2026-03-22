@@ -14,7 +14,7 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col gap-2" id="contact">
-      <h2 className="text-xl font-semibold">Connect</h2>
+      <h2 className="text-xl font-semibold">Get in touch</h2>
 
       <p>
         <CopyToClipboard text="franad89@gmail.com" onCopy={handleCopied}>
@@ -40,7 +40,7 @@ export default function Contact() {
         <a href="mailto:franad89@gmail.com">
           <SvgIcon size="sm" icon="email" />
         </a>
-        <a href="https://read.cv/aloif" target="_blank">
+        <a href="/francisco-aloi-resume.pdf" download>
           <SvgIcon size="sm" icon="cv" />
         </a>
       </div>
