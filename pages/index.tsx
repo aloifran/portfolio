@@ -11,9 +11,8 @@ export default function Home() {
         <div className="flex flex-col gap-3 md:w-11/12">
           <h1 className="text-2xl font-semibold md:text-2xl">Hi, I&apos;m Francisco.</h1>
           <p>
-            I&apos;m a Test Automation Engineer with over a decade of experience in front-end and back-end testing.
-            I enjoy building automated test systems that are easy to maintain and extend,
-            along with CI/CD pipelines that improve delivery and reliability.
+            I&apos;m a Senior Test Automation Engineer with over a decade of experience in front-end and back-end testing across fintech and healthcare platforms.
+            I specialise in building scalable test automation systems that are easy to maintain, along with CI/CD pipelines that build confidence to ship reliably.
           </p>
           <p>
             I&apos;m currently based in Berlin and working at{" "}
@@ -42,6 +41,7 @@ export default function Home() {
                   <li>Next.js</li>
                   <li>Vue.js</li>
                   <li>Material UI</li>
+                  <li>Styled components</li>
                   <li>Storybook</li>
                 </ul>
               </div>
@@ -67,7 +67,7 @@ export default function Home() {
                   <li>Cypress</li>
                   <li>Cucumber</li>
                   <li>Selenium</li>
-                  <li>Grafana K6</li>
+                  <li>Grafana k6</li>
                 </ul>
               </div>
             </div>
