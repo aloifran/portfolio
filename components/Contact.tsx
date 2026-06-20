@@ -35,6 +35,7 @@ export default function Contact() {
           href="https://www.linkedin.com/in/fjaloi"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="LinkedIn profile"
         >
           <SvgIcon size="sm" icon="linkedIn" />
         </a>
@@ -42,13 +43,18 @@ export default function Contact() {
           href="https://github.com/aloifran"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub profile"
         >
           <SvgIcon size="sm" icon="github" />
         </a>
-        <a href="mailto:franad89@gmail.com">
+        <a href="mailto:franad89@gmail.com" aria-label="Email me">
           <SvgIcon size="sm" icon="email" />
         </a>
-        <a href="/francisco-aloi-resume.pdf" download>
+        <a
+          href="/francisco-aloi-resume.pdf"
+          download
+          aria-label="Download my CV"
+        >
           <SvgIcon size="sm" icon="cv" />
         </a>
       </div>

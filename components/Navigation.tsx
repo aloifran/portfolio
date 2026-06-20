@@ -51,7 +51,12 @@ export default function Navigation() {
               <div className="flex items-center justify-center space-x-4 md:ml-6 md:space-x-6">
                 <ThemeSelector />
                 <div className="md:hidden">
-                  <Hamburger toggle={handleNav} toggled={isOpen} size={20} />
+                  <Hamburger
+                    toggle={handleNav}
+                    toggled={isOpen}
+                    size={20}
+                    label="Toggle navigation menu"
+                  />
                 </div>
               </div>
               {/* links */}

@@ -15,6 +15,7 @@ export default function ThemeSelector() {
         <motion.button
           onClick={handleTheme}
           className="rounded-lg"
+          aria-label="Switch to light theme"
           initial={{ rotate: 0 }}
           animate={{
             rotate: 100,
@@ -27,6 +28,7 @@ export default function ThemeSelector() {
         <motion.button
           onClick={handleTheme}
           className="rounded-lg"
+          aria-label="Switch to dark theme"
           initial={{ rotate: 0 }}
           animate={{ rotate: 0, transition: { duration: 0.4 } }}
         >

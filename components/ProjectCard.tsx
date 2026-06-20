@@ -26,7 +26,7 @@ export default function ProjectCard({
         <a href={siteUrl || repoUrl}>
           <Image
             src={imageSrc}
-            alt="Project"
+            alt={`${title} project screenshot`}
             width={400}
             height={200}
             priority
@@ -43,11 +43,16 @@ export default function ProjectCard({
             )}
           </div>
           <div className="flex gap-4 pr-1">
-            <a href={repoUrl} target="_blank" rel="noopener noreferrer">
+            <a
+              href={repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${title} GitHub repository`}
+            >
               <SvgIcon size="sm" icon="github" />
             </a>
             {siteUrl ? (
-              <a href={siteUrl}>
+              <a href={siteUrl} aria-label={`${title} live site`}>
                 <SvgIcon size="sm" icon="externalSite" />
               </a>
             ) : null}
