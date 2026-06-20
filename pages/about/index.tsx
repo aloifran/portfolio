@@ -29,7 +29,7 @@ export default function About() {
               and gain insight into the development process.
               This led me to complete an intensive{" "}<span className="font-semibold">Full-stack Software Development Bootcamp</span>{" "}
               where I had the opportunity to successfully deliver multiple projects.
-              That experience changed my perspective and allowed my to see the big picture of how a product is is built and delivered,
+              That experience changed my perspective and allowed me to see the big picture of how a product is built and delivered,
                and how testing fits into the development process.
             </p>
           </div>
