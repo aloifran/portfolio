@@ -43,7 +43,7 @@ export default function ProjectCard({
             )}
           </div>
           <div className="flex gap-4 pr-1">
-            <a href={repoUrl} target="_blank">
+            <a href={repoUrl} target="_blank" rel="noopener noreferrer">
               <SvgIcon size="sm" icon="github" />
             </a>
             {siteUrl ? (

@@ -31,10 +31,18 @@ export default function Contact() {
       </p>
 
       <div className="flex space-x-6 pt-2">
-        <a href="https://www.linkedin.com/in/fjaloi" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/fjaloi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SvgIcon size="sm" icon="linkedIn" />
         </a>
-        <a href="https://github.com/aloifran" target="_blank">
+        <a
+          href="https://github.com/aloifran"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SvgIcon size="sm" icon="github" />
         </a>
         <a href="mailto:franad89@gmail.com">
